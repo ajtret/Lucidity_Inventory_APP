@@ -1,0 +1,90 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: black;
+  padding: 30px;
+  border-radius: 8px;
+  width: 500px;
+  height: auto;
+  max-height: 90vh;
+  overflow-y: auto;
+  color: white;
+}
+
+.modal-content h2 {
+  color: white;
+  margin-bottom: 5px;
+  font-size: 30px;
+}
+
+.product-name {
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: white;
+}
+
+.modal-field {
+  margin-bottom: 20px;
+}
+
+.modal-field label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.modal-field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: darkgray;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.cancel-button {
+  color: yellowgreen;
+  background-color: #333;
+}
+
+.save-button {
+  background-color: gray;
+  color: black;
+}
+
+.modal-row {
+  display: flex;
+  gap: 100px;
+}
+
+.Imcross{
+  color: yellowgreen;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}

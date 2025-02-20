@@ -1,0 +1,35 @@
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 50px;
+  background-color: black;
+}
+
+.stat {
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background-color: darkolivegreen;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.stat h2 {
+  font-size: 18px;
+  color: white;
+  padding: '10px';
+  font-size: '10px';
+}
+
+.stat p {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+}
+
+.row {
+  display: flex;
+}

@@ -1,0 +1,96 @@
+.inventory-container {
+  padding: 20px;
+  background-color: #333;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid #333;
+  border-radius: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  height: 400px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  color: greenyellow;
+  font-weight: bold;
+}
+
+.table-btn {
+  color:yellowgreen;
+  padding: 12px;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+
+.table tr {
+  color: gray;
+}
+
+.text-green-500 {
+  color: #4caf50;
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #333;
+}
+
+.disabled {
+  color: gray;
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #333;
+}
+
+.action-button-edit {
+  color: forestgreen;
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #333;
+  
+}
+
+.action-button-delete {
+  color: red ;
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #333;
+}
+
+.action-button-disable {
+  color: mediumpurple;
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: #333;
+}
